@@ -122,8 +122,6 @@ function createWidget () {
   })
 
   function render (link, isCopied, onCopy, onExit) {
-    const confirmClass = (isCopied) ? 'show-confirmation' : ''
-
     return html`
       <section class="${prefix} relative flex flex-column justify-center pa3 ph4 bg-white">
         <h3 class="mt0">Copy Dat Link</h3>
